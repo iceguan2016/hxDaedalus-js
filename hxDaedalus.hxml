@@ -1,0 +1,12 @@
+#--js hxDaedalusLib
+#--debug
+#mac
+#-cmd open web/DaedalusBasic.html
+#win
+#-cmd start web/DaedalusBasic.html
+
+# 编译所有 .hx 文件
+-cp src/
+-main Main
+#-js output.js
+--cs cs
